@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/post.astro
-title: Run Python in Your Browser Effortlessly
-description: Run Python programs in the browser easily using Pyodide and WebAssembly for seamless execution of code and packages
-dateFormatted: Dec 21, 2024
+title: Compétence 6 - Collaborer au sein d'une équipe informatique
+description: Illustration de mes contributions au travail d'équipe, à la veille technologique et à la gestion de projet pour la validation de la SAÉ.
+order: 3
 ---
 
 Microsoft recently open-sourced [MarkItDown](https://github.com/microsoft/markitdown), a program that converts Office files to Markdown format. The project quickly climbed to GitHub's trending list upon release.

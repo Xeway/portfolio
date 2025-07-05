@@ -4,17 +4,7 @@ const allPosts = await getCollection("post");
 
 const { count } = Astro.props;
 
-function parseDate(dateStr) {
-  const [month, day, year] = dateStr.split(" ");
-  return new Date(`${month} ${parseInt(day)}, ${year}`);
-}
-
-const sortedPosts = allPosts
-  .map((post) => ({
-    ...post,
-    date: parseDate(post.data.dateFormatted),
-  }))
-  .sort((a, b) => b.date.getTime() - a.date.getTime());
+const sortedPosts = allPosts.sort((a, b) => a.data.order - b.data.order);
 
 const postsLoop = sortedPosts.slice(0, count).map((post) => {
   return {
