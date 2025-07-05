@@ -1,18 +1,10 @@
 [
 	{
-		"name": "Home",
-		"url": "/"
+		"name": "Accueil",
+		"url": "/portfolio"
 	},
 	{
-		"name": "Posts",
-		"url": "/posts"
-	},
-	{
-		"name": "Projects",
-		"url": "/projects"
-	},
-	{
-		"name": "About",
-		"url": "/about"
+		"name": "Compétences",
+		"url": "/portfolio/competences"
 	}
 ]
